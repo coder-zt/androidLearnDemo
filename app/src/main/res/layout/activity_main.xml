@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btn_p2_1"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="用户页面优化(2.1)"
+        android:textSize="28sp"/>
+
+    <Button
+        android:id="@+id/btn_p3"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="数据持久化(p3)"
+        android:textSize="28sp"/>
+
+    <Button
+        android:id="@+id/btn_sqlite"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="Sqlite数据库(p4)"
+        android:textAllCaps="false"
+        android:textSize="28sp"/>
+
+    <Button
+        android:id="@+id/btn_activity"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="Activity(p5)"
+        android:textAllCaps="false"
+        android:textSize="28sp"/>
+
+    <Button
+        android:id="@+id/btn_broadcast"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="Broadcast(p6)"
+        android:textAllCaps="false"
+        android:textSize="28sp"/>
+
+    <Button
+        android:id="@+id/btn_service"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="Service(p7)"
+        android:textAllCaps="false"
+        android:textSize="28sp"/>
+
+</LinearLayout>

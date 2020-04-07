@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".second_save_data.activity_sec_setdata">
+
+    <Button
+        android:id="@+id/btn_writeFile"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="写入文件demo"
+        android:textSize="28sp"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/btn_to_sdcrad"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="写入文件到SD卡"
+        android:textSize="28sp"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/btn_sharepreference"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="SharePerference demo"
+        android:textSize="28sp"
+        android:textAllCaps="false"/>
+
+
+</LinearLayout>

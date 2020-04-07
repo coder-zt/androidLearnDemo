@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".second_save_data.subPages.activity_thr_writefile"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/et_userinfo"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"/>
+
+    <EditText
+        android:id="@+id/et_password"
+        android:inputType="textPassword"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp">
+
+        <Button
+            android:id="@+id/btn_check"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="80dp"
+            android:text="检测SD卡"
+            android:textSize="28sp"/>
+
+        <Button
+            android:id="@+id/btn_do"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="80dp"
+            android:text="查看剩余空间"
+            android:enabled="false"
+            android:textSize="28sp"/>
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/btn_read"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="读取文件内容"
+        android:textSize="28sp"/>
+
+    <TextView
+        android:id="@+id/tv_result"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="result:"
+        android:textSize="28sp"/>
+</LinearLayout>

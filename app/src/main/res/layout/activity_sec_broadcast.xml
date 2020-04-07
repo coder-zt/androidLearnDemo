@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tv_level"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="22sp"
+        android:text="监听电量中..."
+        android:gravity="center"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/tv_status"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="22sp"
+        android:text="监听数据线状态..."
+        android:gravity="center"
+        android:layout_marginTop="20dp"/>
+    <Button
+        android:onClick="sendbroadcast"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="发送自定义广播"
+        android:textSize="28sp" />
+</LinearLayout>

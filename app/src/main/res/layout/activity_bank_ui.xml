@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="银行案例"
+        android:textSize="32sp"
+        android:gravity="center"/>
+    <Button
+        android:onClick="userClick"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:textSize="28sp"
+        android:text="普通用户"/>
+    <Button
+        android:onClick="workClick"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:textSize="28sp"
+        android:text="工作人员"/>
+    <Button
+        android:onClick="bossClick"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:textSize="28sp"
+        android:text="老板"/>
+</LinearLayout>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:onClick="startSerivce"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="启动服务"
+        android:textSize="28sp"/>
+
+    <Button
+        android:onClick="stopSerivce"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="停止服务"
+        android:textSize="28sp"/>
+    <Button
+        android:onClick="callSerivceMethod"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="调用内部方法"
+        android:textSize="28sp"/>
+
+    <Button
+        android:onClick="bindSerivce"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="绑定服务"
+        android:textSize="28sp"/>
+
+    <Button
+    android:onClick="unbindSerivce"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:text="解除服务"
+    android:textSize="28sp"/>
+
+    <Button
+        android:onClick="toBankActivity"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="银行服务案例"
+        android:textSize="28sp"/>
+
+    <Button
+        android:onClick="toMiuscActivity"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="音乐播放案例"
+        android:textSize="28sp"/>
+
+</LinearLayout>

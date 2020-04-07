@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.zhangtao.androidlearndemo">
+
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+<!--    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>-->
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".frist_UI_demo.subPages.activity_thr_recycleview"></activity>
+        <activity android:name=".fourth_activity_demo.subPages.activity_thr_intent">
+            <intent-filter>
+                <action android:name="com.zhangtao.androidlearndemo.intent" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:scheme="info" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.zhangtao.androidlearndemo.intent" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".fifth_broadcast_receive.activity_sec_Broadcast"/>
+        <activity android:name=".fourth_activity_demo.activity_sec_Activity" />
+        <activity android:name=".sixth_service_demo.activity_sec_Service" />
+        <activity android:name=".thrid_sqlite_database.activity_sec_Sqlite" />
+        <activity android:name=".frist_UI_demo.subPages.activity_thr_multipleChoose" />
+        <activity android:name=".frist_UI_demo.subPages.activity_thr_singleChoose" />
+        <activity android:name=".frist_UI_demo.activity_sec_ui" />
+        <activity android:name=".second_save_data.subPages.activity_thr_SharePreference" />
+        <activity android:name=".second_save_data.subPages.activity_thr_toSdCrad" />
+        <activity android:name=".second_save_data.subPages.activity_thr_writefile" />
+        <activity android:name=".second_save_data.activity_sec_setdata" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".sixth_service_demo.bankDemo.activity_bank_ui" />
+        <activity android:name=".sixth_service_demo.bankDemo.activity_user_ui" />
+        <activity android:name=".sixth_service_demo.bankDemo.activity_worker_ui" />
+        <activity android:name=".sixth_service_demo.bankDemo.activity_boss_ui" />
+        <activity android:name=".sixth_service_demo.music_demo.UI.activity_miusc_ui" />
+
+        <service android:name=".sixth_service_demo.service.Service_First" />
+        <service android:name=".sixth_service_demo.bankDemo.BankService">
+            <intent-filter>
+                <action android:name="com.zhangtao.androidlearndemo.USERACTION" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.zhangtao.androidlearndemo.WORKERACTION" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.zhangtao.androidlearndemo.BOSSACTION" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </service>
+        <service android:name=".sixth_service_demo.music_demo.service.PlayerService" />
+        <service android:name=".NotificationService" />
+    </application>
+
+</manifest>

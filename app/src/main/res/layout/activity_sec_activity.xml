@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/ll_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".second_save_data.activity_sec_setdata">
+
+        <Button
+            android:id="@+id/btn_intentexplicit"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:text="显式意图"
+            android:textSize="28sp"
+            android:textAllCaps="false"/>
+
+        <Button
+            android:id="@+id/btn_intentimplicit"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:text="隐式意图"
+            android:textSize="28sp"
+            android:textAllCaps="false"/>
+
+        <Button
+            android:id="@+id/btn_thrid_app"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:text="跳向第三方app(浏览器)"
+            android:textSize="28sp"
+            android:textAllCaps="false"/>
+        <Button
+            android:id="@+id/btn_send_data"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:text="传递数据(对象)"
+            android:textSize="28sp"
+            android:textAllCaps="false"/>
+
+        <Button
+            android:onClick="call"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:text="打电话"
+            android:textSize="28sp"
+            android:textAllCaps="false"/>
+
+        <Button
+            android:onClick="sendData"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:text="数据传输与接收"
+            android:textSize="28sp"
+            android:textAllCaps="false" />
+
+        <Button
+            android:onClick="returnData"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:text="数据回传"
+            android:textSize="28sp"
+            android:textAllCaps="false" />
+
+        <Button
+            android:onClick="takePhoto"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:text="数据回传--相机"
+            android:textSize="28sp"
+            android:textAllCaps="false" />
+        <ImageView
+            android:id="@+id/iv_photo"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"/>
+</LinearLayout>

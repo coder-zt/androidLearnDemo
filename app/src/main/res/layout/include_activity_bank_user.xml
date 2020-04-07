@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <Button
+        android:onClick="putMoney"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="存钱"
+        android:textSize="28sp"/>
+
+    <Button
+        android:onClick="getMoney"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="取钱"
+        android:textSize="28sp"/>
+
+    <Button
+        android:onClick="loanMoney"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="贷款"
+        android:textSize="28sp"/>
+</LinearLayout>
